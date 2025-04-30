@@ -8,7 +8,7 @@ const projects = [
     name: "Chat Web App",
     year: "Mar 2025",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "/images/website-img-1.jpg",
     link: "#",
     // --- ADD SUMMARY HERE ---
     summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti impedit ipsa necessitatibus aspernatur deserunt vero itaque amet natus illo facere.",
@@ -17,7 +17,7 @@ const projects = [
     name: "URL Shortner",
     year: "Mar 2025",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: "/images/website-img-2.webp",
     link: "#",
     // --- ADD SUMMARY HERE ---
     summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti impedit ipsa necessitatibus aspernatur deserunt vero itaque amet natus illo facere.",
@@ -26,7 +26,7 @@ const projects = [
     name: "AI ChatApp",
     year: "Mar 2025",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "/images/website-img-3.jpg",
     link: "#",
     // --- ADD SUMMARY HERE ---
     summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti impedit ipsa necessitatibus aspernatur deserunt vero itaque amet natus illo facere.",
