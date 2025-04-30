@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Fredericka+the+Great&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Doto:wght@100..900&family=Fredericka+the+Great&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Doto:wght@100..900&family=Fredericka+the+Great&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Doto:wght@100..900&family=Fredericka+the+Great&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Rubik+Microbe&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  @apply bg-darkBrown;
+  @apply bg-[#0b0f1b];
 }
