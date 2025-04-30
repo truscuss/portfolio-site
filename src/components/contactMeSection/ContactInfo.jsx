@@ -1,12 +1,10 @@
 import { HiOutlineMail } from "react-icons/hi";
-import { FiPhone } from "react-icons/fi";
 import SingleInfo from "./SingleInfo";
 
 const ContactInfo = () => {
   return (
-    <div className="flex flex-col gap-4 text-white">
+    <div className="flex flex-col gap-4 text-white text-xl">
       <SingleInfo text="shivamm9630@gmail.com" Image={HiOutlineMail} />
-      <SingleInfo text="+91111111" Image={FiPhone} />
     </div>
   );
 };
