@@ -6,7 +6,7 @@ const ContactSocial = () => {
   return (
     <div className="flex gap-4">
       <SingleContactSocial link="https://www.linkedin.com/in/shivam-b17b87281/" Icon={FaLinkedinIn} />
-      <SingleContactSocial link="#" Icon={FiGithub} />
+      <SingleContactSocial link="https://github.com/truscuss" Icon={FiGithub} />
     </div>
   );
 };

@@ -9,7 +9,7 @@ const links = [
 
 const NavbarLinks = () => {
   return (
-    <ul className="flex lg:flex-row sm:flex-col gap-6 text-[#BFA181] font-body lg:relative sm:absolute sm:top-[120%] text-center left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:bg-cyan/30 backdrop-blur-lg lg:bg-[#050a30] sm:w-full py-4">
+    <ul className="flex lg:flex-row sm:flex-col gap-6 text-[#BFA181] font-body lg:relative sm:absolute sm:top-[120%] text-center left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:bg-[#050816]/90 backdrop-blur-lg lg:bg-[#050a30] sm:w-full py-4">
       {links.map((link, index) => {
         return (
           <li key={index} className="group">
@@ -27,6 +27,18 @@ const NavbarLinks = () => {
           </li>
         );
       })}
+       {/* Resume external link */}
+  <li className="group">
+    <a
+      href="https://drive.google.com/file/d/13tTqJNmw9lXh2uamHmsIlqhbUriuHCRg/view?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="cursor-pointer text-[#BFA181] hover:text-cyan transition-all duration-500"
+    >
+      Resume
+    </a>
+    <div className="mx-auto bg-cyan w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
+  </li>
     </ul>
   );
 };

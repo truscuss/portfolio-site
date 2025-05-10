@@ -8,7 +8,7 @@ const projects = [
     name: "Whisprr",
     year: "Mar 2025",
     align: "right",
-    image: "/images/chatApp.png",
+    image: "/images/chat.png",
     link: "https://whisprr.onrender.com/",
     // --- ADD SUMMARY HERE ---
     summary: "Created a chat application using the MERN stack and Socket.IO for real-time messaging. Features include real-time messaging and online/offline status, media sharing, profile picture upload, emoji reactions, unread message count, 32-themes to choose from and secure login with JWT."
