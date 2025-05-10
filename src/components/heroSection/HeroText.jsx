@@ -9,9 +9,9 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-4xl sm:text-xl font-shade font bold uppercase text-[#d9f99d] "
+        className="lg:text-4xl sm:text-xl font-shade font bold uppercase text-white "
       >
-        Front-End Web Developer
+        Full Stack Developer
       </motion.h2>
       {/* <motion.h1
         variants={fadeIn("right", 0.4)}

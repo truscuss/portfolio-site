@@ -5,13 +5,13 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Chat Web App",
+    name: "Whisprr",
     year: "Mar 2025",
     align: "right",
-    image: "/images/website-img-1.jpg",
-    link: "#",
+    image: "/images/chatApp.png",
+    link: "https://whisprr.onrender.com/",
     // --- ADD SUMMARY HERE ---
-    summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti impedit ipsa necessitatibus aspernatur deserunt vero itaque amet natus illo facere.",
+    summary: "Created a chat application using the MERN stack and Socket.IO for real-time messaging. Features include real-time messaging and online/offline status, media sharing, profile picture upload, emoji reactions, unread message count, 32-themes to choose from and secure login with JWT."
   },
   {
     name: "URL Shortner",
@@ -22,15 +22,15 @@ const projects = [
     // --- ADD SUMMARY HERE ---
     summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti impedit ipsa necessitatibus aspernatur deserunt vero itaque amet natus illo facere.",
   },
-  {
-    name: "AI ChatApp",
-    year: "Mar 2025",
-    align: "right",
-    image: "/images/website-img-3.jpg",
-    link: "#",
-    // --- ADD SUMMARY HERE ---
-    summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti impedit ipsa necessitatibus aspernatur deserunt vero itaque amet natus illo facere.",
-  },
+  // {
+  //   name: "AI ChatApp",
+  //   year: "Mar 2025",
+  //   align: "right",
+  //   image: "/images/website-img-3.jpg",
+  //   link: "#",
+  //   // --- ADD SUMMARY HERE ---
+  //   summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti impedit ipsa necessitatibus aspernatur deserunt vero itaque amet natus illo facere.",
+  // },
 
 ];
 

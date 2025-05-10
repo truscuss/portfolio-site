@@ -10,6 +10,7 @@ import { FaGitAlt } from "react-icons/fa6";
 import SingleSkill from './SingleSkill';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../../framerMotion/variants'
+import { SiExpress } from "react-icons/si";
 
 
 const skills = [
@@ -40,6 +41,10 @@ const skills = [
       {
         skill: "NodeJS",
         icon: FaNodeJs,
+      },
+      {
+        skill: "ExpressJS",
+        icon: SiExpress,
       },
       {
         skill: "Git",

@@ -42,6 +42,8 @@ const SingleProject = ({ name, year, align, image, link, summary }) => {
         {/* Align link content center on small, start (left) on medium+ */}
         <a
           href={link}
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-center md:justify-start"
         >
           View <BsFillArrowUpRightCircleFill />
@@ -51,7 +53,7 @@ const SingleProject = ({ name, year, align, image, link, summary }) => {
       {/* Image Block - Keep fixed dimensions and prevent shrinking */}
       {/* Added w-full for small screens, explicit width on medium+ */}
       <div className="max-h-[220px] max-w-[400px] w-full md:w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 relative border border-white shrink-0">
-        <div className="w-full h-full bg-cyan opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block"></div>
+        <div className="w-full h-full opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block"></div>
         <img src={image} alt={`${name} project screenshot`} className="w-full h-full object-cover" />
       </div>
     </motion.div>
